@@ -8,6 +8,7 @@ import java.util.Random;
 
 import javax.swing.JApplet;
 import javax.swing.JOptionPane;
+import javax.swing.text.StyledEditorKit.ForegroundAction;
 
 
 public class SafeCracker {
@@ -16,7 +17,9 @@ public class SafeCracker {
     public static void main(String[] args) {
         /* Your mission: use the tryCode method to crack the safe by trying all possible combinations */
 
-        
+for(int i=9999999;i>=0;i--){       
+tryCode(i);
+}
     }
 
 
